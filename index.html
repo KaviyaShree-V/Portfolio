@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -122,7 +122,7 @@
   
     <div class="profile-pic">
 <!--         <img src="C:\Users\Admin\Pictures\Pro\Image-3.jpg"  alt="Kaviya Shree">    </div> -->
-<img src="https://raw.githubusercontent.com/KaviyaShree-V/Portfolio/main/Image-3.jpg" alt="Kaviya Shree">
+<!-- <img src="https://raw.githubusercontent.com/KaviyaShree-V/Portfolio/main/Image-3.jpg" alt="Kaviya Shree">
     <header>Portfolio</header>
 
     
@@ -137,7 +137,137 @@
     <div class="cv-section">
         <h2>Download or Upload Your CV</h2><br>
 <!--         <a href="C:\Users\Admin\Pictures\Pro\RESUME.pdf" download="KaviyaShree_CV.pdf" class="download-btn">Download CV</a> -->
-    <a href="RESUME.pdf" download="KaviyaShree_CV.pdf" class="download-btn">Download CV</a>
+<!--     <a href="RESUME.pdf" download="KaviyaShree_CV.pdf" class="download-btn">Download CV</a>
     </div>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>        
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('background.jpg') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+        }
+
+        .profile-pic {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid #f9ca24;
+            overflow: hidden;
+        }
+        .profile-pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .menu-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .menu-box a {
+            display: block;
+            width: 250px;
+            text-align: center;
+            color: rgb(151, 16, 79);
+            text-decoration: none;
+            font-size: 20px;
+            padding: 15px 30px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 12px;
+            transition: transform 0.3s, background 0.3s;
+        }
+
+        .menu-box a:hover {
+            background: rgba(255, 255, 255, 0.5);
+            color: #222;
+            transform: scale(1.1);
+        }
+
+        .cv-section {
+            margin: 80px auto;
+            width: 70%;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .cv-section h2 {
+            color: #f9ca24;
+            margin-bottom: 20px;
+        }
+
+        .download-btn {
+            background: #007bff;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s;
+            margin-top: 20px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+        }
+
+        .download-btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Profile Image -->
+    <div class="profile-pic">
+        <img src="https://raw.githubusercontent.com/KaviyaShree-V/Portfolio/main/Image-3.jpg" alt="Kaviya Shree">
+    </div>
+
+    <header>Portfolio</header>
+
+    <!-- Navigation Menu -->
+    <div class="menu-box">
+        <a href="Home.html">About</a>
+        <a href="Skills.html">Skills</a>
+        <a href="Projects.html">Projects</a>
+        <a href="Contact.html">Contact</a>
+        <a href="achievements.html">Achievements</a>
+    </div>
+
+    <!-- CV Section -->
+    <div class="cv-section">
+        <h2>Download Your CV</h2>
+        <a href="https://raw.githubusercontent.com/KaviyaShree-V/Portfolio/main/RESUME.pdf" download="KaviyaShree_CV.pdf" class="download-btn">Download CV</a>
+    </div>
+
 </body>
 </html>
